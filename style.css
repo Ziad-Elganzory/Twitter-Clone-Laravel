@@ -271,3 +271,153 @@ main {
   margin: 15px 0;
   padding-right: 50px;
 }
+
+.side-feed {
+  width: 50%;
+  padding: 0 2%;
+}
+
+.search {
+  display: flex;
+  height: 55px;
+  max-width: 355px;
+  position: sticky;
+  top: 0;
+  padding-top: 5px;
+  background-color: black;
+}
+
+.search input {
+  background-color: #212327;
+  border-radius: 9999px;
+  height: 45px;
+  width: 100%;
+  border: none;
+  padding-left: 30px;
+  font-size: 1.5rem;
+  color: white;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  min-height: 570px;
+  max-width: 355px;
+  border-radius: 16px;
+  background-color: #212327;
+  margin-top: 16px;
+}
+
+.h1-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 15px 15px;
+}
+
+.trending-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 90px;
+  margin-top: 5px;
+  padding: 0 15px;
+  color: rgb(110, 115, 125);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.item-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trending span {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.trending p {
+  color: white;
+}
+
+.trending-item:hover,
+.show-more:hover {
+  background-color: #1c1e22;
+  cursor: pointer;
+}
+
+.show-more {
+  display: flex;
+  align-items: center;
+  color: #1c88d2;
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 100%;
+  padding: 15px 15px;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  max-width: 355px;
+  border-radius: 16px;
+  background-color: #212327;
+  margin-top: 16px;
+}
+
+.follow-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  margin-top: 5px;
+  padding: 30px 15px;
+}
+
+.follow-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.follow-details a {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.follow-details a:hover {
+  text-decoration: underline;
+}
+
+.follow-details span {
+  color: rgb(110, 115, 125);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+#follows {
+  font-weight: 300;
+  font-size: 1.5rem;
+  background-color: #1c1e22;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+.follow .tweet-btn {
+  width: 75px;
+  height: 35px;
+  margin: 0 0 0 12px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+}
