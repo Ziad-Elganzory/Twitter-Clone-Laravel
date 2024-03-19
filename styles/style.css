@@ -15,14 +15,6 @@ body {
   background-color: black;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 24px;
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -31,6 +23,14 @@ header {
   width: 29%;
   height: 100%;
   position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .nav-links {
@@ -80,7 +80,6 @@ header {
   color: white;
   font-weight: 700;
   border: 0px;
-
 }
 
 .tweet-btn:hover {
@@ -260,9 +259,9 @@ main {
   margin-left: 3px;
 }
 
-
-.tweeter-details .tweeter-handel:hover,.tweeter-details i:hover{
-  color:white;
+.tweeter-details .tweeter-handel:hover,
+.tweeter-details i:hover {
+  color: white;
   transition-duration: 0.2s;
 }
 
@@ -274,8 +273,8 @@ main {
 }
 .tweet-post-img {
   width: 100%;
-  max-width: 520px; 
-  margin: 10px 0 0 0; 
+  max-width: 520px;
+  margin: 10px 0 0 0;
 }
 
 .tweet-post-img img {
@@ -292,12 +291,18 @@ main {
   padding-right: 50px;
 }
 
-.icon-tweet,.comment ,.retweet,.like,.analysis,.bookmark,.share{
+.icon-tweet,
+.comment,
+.retweet,
+.like,
+.analysis,
+.bookmark,
+.share {
   display: flex;
   border-radius: 25px;
 }
 
-.tweet-icons p{
+.tweet-icons p {
   color: rgb(110, 115, 125);
   font-size: 1.5rem;
   padding-left: 1px;
@@ -330,7 +335,7 @@ main {
 }
 
 .retweet:hover {
-  background-color: rgba(0, 201, 167,0.1);
+  background-color: rgba(0, 201, 167, 0.1);
   transition-duration: 0.2s;
 }
 
@@ -341,14 +346,14 @@ main {
 }
 
 .like:hover {
-  background-color: rgba(138, 1, 64,0.1);
+  background-color: rgba(138, 1, 64, 0.1);
   transition-duration: 0.2s;
 }
 
 .like:hover i,
 .like:hover p {
   transition-duration: 0.2s;
-  color:  #e8006c ;
+  color: #e8006c;
 }
 
 .analysis:hover {
@@ -361,7 +366,6 @@ main {
   transition-duration: 0.2s;
   color: #1c88d2;
 }
-
 
 .bookmark:hover {
   background-color: rgba(28, 136, 210, 0.1);
@@ -384,7 +388,6 @@ main {
   transition-duration: 0.2s;
   color: #1c88d2;
 }
-
 
 .side-feed {
   width: 50%;

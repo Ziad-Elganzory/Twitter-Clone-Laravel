@@ -15,14 +15,6 @@ body {
   background-color: black;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 24px;
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -31,6 +23,14 @@ header {
   width: 29%;
   height: 100%;
   position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .nav-links {
@@ -92,11 +92,10 @@ header {
   height: 30%;
   padding-top: 150px;
 }
-.item-category i:hover{
-  color:white;
+.item-category i:hover {
+  color: white;
   transition-duration: 0.2s;
 }
-
 
 .main-account a {
   display: flex;
@@ -156,7 +155,7 @@ main {
   border-bottom: 1px solid rgb(41, 51, 54);
 }
 
-.setting-home{
+.setting-home {
   display: flex;
   justify-content: center;
 }
@@ -167,7 +166,7 @@ main {
   border-radius: 20px;
 }
 
-.setting-home i{
+.setting-home i {
   padding: 10px;
 }
 
@@ -180,12 +179,11 @@ main {
   color: white;
 }
 
-.home-top i{
+.home-top i {
   cursor: pointer;
 }
 
 .search-home input {
-
   background-color: #212327;
   border-radius: 9999px;
   height: 45px;
@@ -196,11 +194,10 @@ main {
   color: white;
   line-height: 20px;
   font-weight: 400;
-
 }
 
 .home-top .search-home {
-width: 90%;
+  width: 90%;
 }
 
 .home-bot {
@@ -217,24 +214,22 @@ width: 90%;
   width: 100%;
   justify-content: center;
   align-items: center;
-  position: relative; 
-
+  position: relative;
 }
 
 .home-bot div:hover {
   transition-duration: 0.2s;
   background-color: #212327;
-
 }
 
 .home-bot div.active p {
-  font-size: 2rem; 
-  font-weight: 400; 
-  color: white; 
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
 }
 
 .home-bot div.active p::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 34px;
@@ -327,13 +322,11 @@ width: 90%;
   font-weight: 300;
 }
 
-.explore-item p{
+.explore-item p {
   color: white;
   font-size: 1.5rem;
   font-weight: 600;
 }
-
-
 
 .item-category {
   display: flex;
