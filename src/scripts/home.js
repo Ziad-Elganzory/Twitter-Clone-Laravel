@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     function fetchAndSelectRandomTrend(category) {
 
-        return fetch(`../json/explore.json`)
+        return fetch(`public/json/explore.json`)
             .then(response => response.json())
             .then(data => {
 
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     //this for retrieving the posts from the json file
-    fetch('../json/posts.json')
+    fetch('public/json/posts.json')
     .then(response => response.json())
     .then(data => {
         const feedDiv = document.querySelector('.feed');
