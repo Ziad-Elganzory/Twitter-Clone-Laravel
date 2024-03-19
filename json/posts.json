@@ -1,0 +1,63 @@
+[
+    {
+      "account_name": "Ziad Elganzory",
+      "profile_picture": "images/profiles/ziad.jpg",
+      "handle": "@ganzury__",
+      "time": "1h",
+      "post_caption": "Place Holder",
+      "post_image": "/images/posts/gif.gif",
+      "comments_number": 4,
+      "likes": 12,
+      "retweets": 8,
+      "analysis_number": "120"
+    },
+    {
+      "account_name": "Mostafa Roshdy",
+      "profile_picture": "images/profiles/roshdy.jpg",
+      "handle": "@roshdy",
+      "time": "1h",
+      "post_caption": "This is a post without an image.",
+      "post_image": "none", 
+      "comments_number": 0,
+      "retweets": 0,
+      "likes": 1,
+      "analysis_number": "13"
+    },
+    {
+        "account_name": "Merna Gamal",
+        "profile_picture": "images/profiles/merna.jpg",
+        "handle": "@merna..",
+        "time": "1h",
+        "post_caption": "This is a post with an image.",
+        "post_image": "/images/posts/Twitter-Feature.jpg", 
+        "comments_number": 150,
+        "retweets": 30,
+        "likes": 33,
+        "analysis_number": "100K"
+    },
+    {
+        "account_name": "Mohamed Hosny",
+        "profile_picture": "images/profiles/Hosny.jpg",
+        "handle": "@mohamedx",
+        "time": "1h",
+        "post_caption": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "post_image": "none", 
+        "comments_number": 200,
+        "retweets": "5K",
+        "likes": "20K",
+        "analysis_number": "1M"
+    },
+    {
+        "account_name": "Nada Rabeea",
+        "profile_picture": "images/profiles/nada.jpg",
+        "handle": "@nrabeea",
+        "time": "1h",
+        "post_caption": "This is a post with an image.",
+        "post_image": "/images/posts/twitter-logo.png", 
+        "comments_number": 150,
+        "retweets": 30,
+        "likes": 33,
+        "analysis_number": "100K"
+    }
+  ]
+  

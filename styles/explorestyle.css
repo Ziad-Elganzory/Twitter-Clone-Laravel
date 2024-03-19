@@ -92,6 +92,11 @@ header {
   height: 30%;
   padding-top: 150px;
 }
+.item-category i:hover{
+  color:white;
+  transition-duration: 0.2s;
+}
+
 
 .main-account a {
   display: flex;
@@ -243,14 +248,14 @@ width: 90%;
   width: 50%;
   padding: 0 2%;
   position: relative;
-  top: 60px;
+  top: 6px;
 }
 
 .search {
   display: flex;
   height: 55px;
   max-width: 359px;
-  position: fixed;
+  position: sticky;
   right: 296px;
   padding-top: 5px;
   padding-right: 5px;

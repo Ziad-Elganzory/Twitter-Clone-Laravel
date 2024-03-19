@@ -58,6 +58,7 @@ header {
 .main-account a:hover {
   background-color: rgb(47, 51, 54);
   border-radius: 9999px;
+  transition-duration: 0.2s;
 }
 
 .nav-links a:first-child {
@@ -79,11 +80,12 @@ header {
   color: white;
   font-weight: 700;
   border: 0px;
-  transition-duration: 0.2s;
+
 }
 
 .tweet-btn:hover {
   background-color: rgba(29, 155, 240, 0.9);
+  transition-duration: 0.2s;
 }
 
 .main-account {
@@ -258,10 +260,28 @@ main {
   margin-left: 3px;
 }
 
+
+.tweeter-details .tweeter-handel:hover,.tweeter-details i:hover{
+  color:white;
+  transition-duration: 0.2s;
+}
+
 .tweet-text {
   color: white;
   font-size: 1.5rem;
+  width: 90%;
+  padding: 10px 0;
+}
+.tweet-post-img {
   width: 100%;
+  max-width: 520px; 
+  margin: 10px 0 0 0; 
+}
+
+.tweet-post-img img {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Add border radius for a rounded appearance */
 }
 
 .tweet-icons {
@@ -272,18 +292,112 @@ main {
   padding-right: 50px;
 }
 
+.icon-tweet,.comment ,.retweet,.like,.analysis,.bookmark,.share{
+  display: flex;
+  border-radius: 25px;
+}
+
+.tweet-icons p{
+  color: rgb(110, 115, 125);
+  font-size: 1.5rem;
+  padding-left: 1px;
+}
+
+.comment i,
+.comment p,
+.retweet i,
+.retweet p,
+.like i,
+.like p,
+.analysis i,
+.analysis p,
+.bookmark i,
+.bookmark p,
+.share i,
+.share p {
+  padding: 5px;
+}
+
+.comment:hover {
+  background-color: rgba(28, 136, 210, 0.2);
+  transition-duration: 0.2s;
+}
+
+.comment:hover i,
+.comment:hover p {
+  color: #1c88d2;
+  transition-duration: 0.2s;
+}
+
+.retweet:hover {
+  background-color: rgba(0, 201, 167,0.1);
+  transition-duration: 0.2s;
+}
+
+.retweet:hover i,
+.retweet:hover p {
+  transition-duration: 0.2s;
+  color: #00c9a7;
+}
+
+.like:hover {
+  background-color: rgba(138, 1, 64,0.1);
+  transition-duration: 0.2s;
+}
+
+.like:hover i,
+.like:hover p {
+  transition-duration: 0.2s;
+  color:  #e8006c ;
+}
+
+.analysis:hover {
+  background-color: rgba(28, 136, 210, 0.1);
+  transition-duration: 0.2s;
+}
+
+.analysis:hover i,
+.analysis:hover p {
+  transition-duration: 0.2s;
+  color: #1c88d2;
+}
+
+
+.bookmark:hover {
+  background-color: rgba(28, 136, 210, 0.1);
+  transition-duration: 0.2s;
+}
+
+.bookmark:hover i,
+.bookmark:hover p {
+  transition-duration: 0.2s;
+  color: #1c88d2;
+}
+
+.share:hover {
+  background-color: rgba(28, 136, 210, 0.1);
+  transition-duration: 0.2s;
+}
+
+.share:hover i,
+.share:hover p {
+  transition-duration: 0.2s;
+  color: #1c88d2;
+}
+
+
 .side-feed {
   width: 50%;
   padding: 0 2%;
   position: relative;
-  top: 60px;
+  top: 6px;
 }
 
 .search {
   display: flex;
   height: 55px;
   max-width: 359px;
-  position: fixed;
+  position: sticky;
   right: 296px;
   padding-top: 5px;
   padding-right: 5px;
@@ -361,6 +475,7 @@ main {
 .show-more:hover {
   background-color: #1c1e22;
   cursor: pointer;
+  transition-duration: 0.2s;
 }
 
 .show-more {
