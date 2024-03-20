@@ -8,75 +8,65 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
       rel="stylesheet"
     />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="../styles/explorestyle.css" />
-    <title>Twitter</title>
+    <title>Explore</title>
   </head>
   <body>
-    <header class="container-fluid">
+    <header>
       <div class="nav-links">
-        <a href="#" class="d-block">
-          <i class="material-icons-outlined">flutter_dash</i>
+        <a href="#">
+          <i class="material-icons-outlined"> flutter_dash </i>
         </a>
-        <a href="index.html" class="d-flex align-items-center">
-          <i class="material-icons-outlined me-1">home</i>
+        <a href="../index.html">
+          <i class="material-icons-outlined"> home </i>
           <span>Home</span>
         </a>
-        <a href="/pages/explore.html" class="d-flex align-items-center">
-          <i class="material-icons-outlined me-1">search</i>
+        <a href="#">
+          <i class="material-icons-outlined"> search </i>
           <span style="font-weight: 600">Explore</span>
         </a>
-        <a href="#" class="d-flex align-items-center">
-          <i class="material-icons-outlined me-1"> notifications </i>
+        <a href="#">
+          <i class="material-icons-outlined"> notifications </i>
           <span>Notifications</span>
         </a>
-        <a href="#" class="d-flex align-items-center">
-          <i class="material-icons-outlined me-1"> email </i>
+        <a href="#">
+          <i class="material-icons-outlined"> email </i>
           <span>Messages</span>
         </a>
-        <a href="#" class="d-flex align-items-center">
-          <i class="material-icons-outlined me-1"> bookmark_border </i>
+        <a href="#">
+          <i class="material-icons-outlined"> bookmark_border </i>
           <span>Bookmarks</span>
         </a>
-        <a href="#" class="d-flex align-items-center">
-          <i class="material-icons-outlined me-1"> list_alt </i>
+        <a href="#">
+          <i class="material-icons-outlined"> list_alt </i>
           <span>Lists</span>
         </a>
-        <a href="#" class="d-flex align-items-center">
-          <i class="material-icons-outlined me-1"> person </i>
+        <a href="#">
+          <i class="material-icons-outlined"> person </i>
           <span>Profile</span>
         </a>
-        <a href="#" class="d-flex align-items-center">
-          <i class="material-icons-outlined me-1"> more </i>
+        <a href="#">
+          <i class="material-icons-outlined"> more </i>
           <span>More</span>
         </a>
-
-        <!-- Rest of the navigation links -->
-        <button class="btn btn-primary tweet-btn mt-3">Tweet</button>
+        <button class="tweet-btn">Tweet</button>
       </div>
 
       <div class="main-account">
-        <a href="#" class="d-flex align-items-center">
-          <img
-            src="images/profiles/ziad.jpg"
-            class="tweet-img rounded-circle me-2"
-          />
+        <a href="#">
+          <img src="../images/profiles/ziad.jpg" class="tweet-img" />
           <div class="account-details">
             <span class="account-name">Ziad Mohamed</span>
             <span class="account-handel">@ganzury__</span>
           </div>
-          <i class="material-icons-outlined ms-auto">more_horiz</i>
+          <i class="material-icons-outlined">more_horiz</i>
         </a>
       </div>
     </header>
 
-    <main class="container-fluid">
+    <main>
       <div class="main-flex">
-        <div class="main-feed col-md-6">
+        <div class="main-feed">
           <div class="home">
             <div class="home-top">
               <div class="search-home">
@@ -88,15 +78,13 @@
             </div>
             <div class="home-bot">
               <div class="nav-item" data-category="For You"><p>For You</p></div>
-              <div class="nav-item" data-category="Trending">
-                <p>Trending</p>
-              </div>
+              <div class="nav-item" data-category="Trending"><p>Trending</p></div>
               <div class="nav-item" data-category="News"><p>News</p></div>
               <div class="nav-item" data-category="Sports"><p>Sports</p></div>
-              <div class="nav-item" data-category="Entertainment">
-                <p>Entertainment</p>
-              </div>
-            </div>
+              <div class="nav-item" data-category="Entertainment"><p>Entertainment</p></div>
+          </div>
+          
+  
           </div>
           <!-- Posts Start -->
           <div class="explore">
@@ -105,7 +93,7 @@
           <!-- Trends End -->
         </div>
 
-        <div class="side-feed col-md-6">
+        <div class="side-feed">
           <div class="search">
             <input type="text" placeholder="Search Twitter" />
           </div>
@@ -114,7 +102,7 @@
               <h1 class="h1-title">What's happening?</h1>
               <!-- Trending Items -->
               <div class="trends">
-                <!-- Randomized Trends -->
+                <!-- Side Trends Are Here -->
               </div>
               <a href="#" class="show-more">Show more</a>
               <!-- End Of Trending Items -->
@@ -122,11 +110,7 @@
             <div class="follow">
               <div class="h1-title">Who to follow</div>
               <div class="follow-profile">
-                <img
-                  class="tweet-img"
-                  src="../images/profiles/ziad.jpg"
-                  alt=""
-                />
+                <img class="tweet-img" src="../images/profiles/ziad.jpg" alt="" />
                 <div class="follow-details">
                   <a href="">Ziad Elganzory</a>
                   <span>@ganzury__ <span id="follows">Follows you</span></span>
@@ -134,11 +118,7 @@
                 <button class="tweet-btn">follow</button>
               </div>
               <div class="follow-profile">
-                <img
-                  class="tweet-img"
-                  src="../images/profiles/ziad.jpg"
-                  alt=""
-                />
+                <img class="tweet-img" src="../images/profiles/ziad.jpg" alt="" />
                 <div class="follow-details">
                   <a href="">Ziad Elganzory</a>
                   <span>@ganzury__ <span id="follows">Follows you</span></span>
